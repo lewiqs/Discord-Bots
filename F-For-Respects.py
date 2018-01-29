@@ -13,11 +13,11 @@ async def on_message(message):
         return
     elif message.content.startswith("f"):
         e = discord.Embed()
-        e.set_image(url=('/images/respect.jpg'))
+        e.set_image(url=('/images/respects.jpg'))
         await client.send_message(message.channel, embed=e)
     elif message.content.startswith("F"):
         e = discord.Embed()
-        e.set_image(url=('/images/respect.jpg'))
+        e.set_image(url=('/images/respects.jpg'))
         await client.send_message(message.channel, embed=e)
         
 client.run("YOURBOTTOKEN")
